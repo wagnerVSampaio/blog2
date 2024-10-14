@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_signin"
+    tools:context=".Sign_in">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="121dp"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/poppins"
+            android:text="Novo caminho"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/playfair_display_black"
+            android:text="Blog"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:layout_weight="0"
+        android:width="315dp"
+        android:height="60dip"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:onClick="goToNextActivity"
+        android:text="ENTRAR"
+        android:textAlignment="center"
+        android:textColor="@color/preto_2"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_goneMarginBottom="76dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">crud</string>
+    <string name="titulo_do_post">Título do post</string>
+    <string name="upload_foto">Upload foto</string>
+</resources>
